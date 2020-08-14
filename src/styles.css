@@ -111,3 +111,12 @@ li {
   color: #f2e7e9;
   background-color: #3a4870;
 }
+
+.active {
+  color: black;
+  cursor: default;
+}
+
+.active:hover {
+  text-decoration: none;
+}
