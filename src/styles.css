@@ -2,13 +2,9 @@ body {
   background-color: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
-h1,
-h2 {
+h1 {
   font-family: "Montserrat", sans-serif;
   color: #3a4870;
-}
-
-h1 {
   font-size: 15px;
   display: block;
   text-align: left;
@@ -16,29 +12,28 @@ h1 {
   padding: 20px 0 0;
 }
 
-h2 {
-  font-size: 15px;
-  display: block;
-  text-align: left;
-  padding: 5px;
-  margin: 0 auto;
-}
-
 ul {
   list-style: none;
-  line-height: 25px;
+  line-height: 30px;
+  text-align: left;
   margin: 0 auto;
-  padding: 4px;
+  padding: 0px;
 }
 
 li {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
-  padding: 4px;
+  padding: 0px;
 }
 
+.temperature {
+  font-size: 40px;
+  margin: 0 auto;
+  padding: 20px 0 0;
+}
 .weather-app-wrapper {
   color: #3a4870;
+
   background-image: linear-gradient(
     to top,
     #f3e7e9 0%,
@@ -52,39 +47,17 @@ li {
   padding: 30px;
 }
 
-.row {
-  line-height: 30px;
-  padding: 0px;
-  padding-left: 5px;
-  margin: 0 auto;
-}
-
-.forecast {
-  font-family: "Montserrat", sans-serif;
-  color: #3a4870;
-  font-size: 12px;
-  padding-left: 5px;
-}
-
-.temperature {
+.forecast ul {
   font-size: 50px;
-  padding-right: 0px;
-  padding-left: 40px;
-  padding-top: 30px;
-  margin: 0 auto;
 }
 
 .visual {
-  font-size: 90px;
-  color: #3a4870;
-  padding-right: 0px;
-  padding-left: 40px;
-  padding-bottom: 30px;
-  margin: 0 auto;
+  font-size: 60px;
 }
 
 .button {
-  border-radius: 5px;
+  border-radius: 4px;
+  padding: 5px;
   border: 1px solid #3a4870;
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
@@ -103,6 +76,7 @@ li {
 
 .button-location {
   border-radius: 5px;
+  padding: 5px;
   border: 1px solid #3a4870;
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
@@ -126,4 +100,10 @@ li {
 
 .active:hover {
   text-decoration: none;
+}
+
+.signature {
+  font-size: 10px;
+  display: block;
+  margin: 5px 330px;
 }

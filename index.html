@@ -25,10 +25,9 @@
   </head>
   <body>
    <div class="container">
-        <div class="weather-app-wrapper">
+  <div class="weather-app-wrapper">
   <div class="row">
     <div class="col-8">
-        
         <form id= search-form>
             <div class="form">
             <input type="text" id = "city-input" placeholder="Enter a city" autocomplete="off" autofocus/>
@@ -36,22 +35,13 @@
             <input type="submit" id= "current-location-button" value="Current" class="button-location" />
             </div>
         </form>
-    
-    </div>
-    <div class="col">
-        
-        
-        </div>
-    <div class="w-100"></div>
-    <div class="col">
-      <h1 id = city >
      
-        </h1>
-      
-        <h2 id = "date">
+   </div>
+  <div class="w-100"></div>
+    <div class="col">
+      <h1 id = city > </h1>
+       
 
-        </h2>
-<br/>
      
       <ul>
         <li id ="description">
@@ -62,6 +52,9 @@
         </li>
         <li> Wind Speed: <span id = "wind"> </span>km/h 
        
+        </li>
+        <li>
+         Last update: <span id = "date"> </span>
         </li>
       </ul>
    
@@ -86,12 +79,13 @@
         
     </div>
   </div>
-</div>
+
+    </div>
+    
     </div>
     </div>
     </div>
-    </div>
-         <small>
+         <small class="signature">
             <a
               href="https://github.com/aacmathieu/Vanilla-weather-app"
               target="_blank"
